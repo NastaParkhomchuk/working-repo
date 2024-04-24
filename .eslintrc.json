@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "extends": ["google"],
+=======
+  "extends": ["google" ],
+>>>>>>> a3b7416 (add smth)
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"

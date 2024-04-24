@@ -19,6 +19,7 @@ describe('isNumberEven positive tests', () => {
   });
 });
 
+<<<<<<< HEAD
 // Test cases for getEvenNumbersFromArray function
 describe('getEvenNumbersFromArray', () => {
   let validator;
@@ -107,3 +108,10 @@ describe('isInteger', () => {
     expect(validator.isInteger(number)).to.be.equal(false);
   });
 });
+=======
+// it(`should throw an erro when provided a string`, () = {
+//   expect(() => {
+//   validator.isNumberEven('4');
+// }).to.throw('[4] is not of type "Number" it is of type "string"');
+// });
+>>>>>>> a3b7416 (add smth)

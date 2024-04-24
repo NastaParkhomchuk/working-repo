@@ -31,6 +31,7 @@ export default class NumbersValidator {
     }
     throw new Error(`[${arrayOfNumbers}] is not an array of "Numbers"`);
   }
+<<<<<<< HEAD
 
   // Method to check if all elements in an array are numbers
   // @param {Array<Number>} arrayOfNumbers - The array to be checked
@@ -56,3 +57,5 @@ export default class NumbersValidator {
     return Number.isInteger(n);
   }
 }
+=======
+>>>>>>> a3b7416 (add smth)
