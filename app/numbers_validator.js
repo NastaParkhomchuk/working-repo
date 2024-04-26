@@ -55,4 +55,29 @@ export default class NumbersValidator {
     // Return true if n is an integer
     return Number.isInteger(n);
   }
+
+
+  // Method to check if all elements in an array are numbers
+  // @param {Array<Number>} arrayOfNumbers - The array to be checked
+  // @return {Boolean} - Returns true if all elements are numbers, false otherwise
+  isAllNumbers(arrayOfNumbers) {
+    // Check if the argument is an array
+    if (!Array.isArray(arrayOfNumbers)) {
+      throw new Error(`[${arrayOfNumbers}] is not an array`);
+    }
+    // Return true if every element in the array is of type number
+    return arrayOfNumbers.every(n => typeof n === 'number');
+  }
+
+  // Method to check if a value is an integer
+  // @param {Number} n - The value to be checked
+  // @return {Boolean} - Returns true if the value is an integer, false otherwise
+  isInteger(n) {
+    // If the type of n is not number, throw an error
+    if (typeof n !== 'number') {
+      throw new Error(`[${n}] is not a number`);
+    }
+    // Return true if n is an integer
+    return Number.isInteger(n);
+  }
 }
