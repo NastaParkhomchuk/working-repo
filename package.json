@@ -6,11 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-<<<<<<< HEAD
     "lint": "eslint ./ --fix",
-=======
-    "lint": "eslint ./",
->>>>>>> a3b7416 (add smth)
     "coverage": "c8 npm test",
     "prepare": "husky install"
   },
@@ -38,8 +34,4 @@
   },
   "author": "",
   "license": "ISC"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a3b7416 (add smth)
