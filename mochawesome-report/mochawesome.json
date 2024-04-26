@@ -1,0 +1,483 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 10,
+    "passes": 10,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-04-26T09:31:36.146Z",
+    "end": "2024-04-26T09:31:36.177Z",
+    "duration": 31,
+    "testsRegistered": 10,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "055f1324-c2e0-4b66-9cad-6393d5e47244",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab41cda3-85fa-4020-922b-ae7cbf870ad5",
+          "title": "isNumberEven positive tests",
+          "fullFile": "/Users/anastasiaparkhomchuk/Desktop/project/test/numbers-validator/isNumberEven.spec.mjs",
+          "file": "/test/numbers-validator/isNumberEven.spec.mjs",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"isNumberEven positive tests\"",
+              "fullTitle": "isNumberEven positive tests \"before each\" hook in \"isNumberEven positive tests\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new NumbersValidator();",
+              "err": {},
+              "uuid": "320acf42-61dd-4543-a536-ee413401303e",
+              "parentUUID": "ab41cda3-85fa-4020-922b-ae7cbf870ad5",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"isNumberEven positive tests\"",
+              "fullTitle": "isNumberEven positive tests \"after each\" hook in \"isNumberEven positive tests\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "88163025-0e13-464c-85a5-0f65f9af5c7b",
+              "parentUUID": "ab41cda3-85fa-4020-922b-ae7cbf870ad5",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return true when provided with an even number",
+              "fullTitle": "isNumberEven positive tests should return true when provided with an even number",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const validationResults = validator.isNumberEven(4);\nexpect(validationResults).to.be.equal(true);",
+              "err": {},
+              "uuid": "02d00a48-e786-4182-a9aa-873b5116dc6e",
+              "parentUUID": "ab41cda3-85fa-4020-922b-ae7cbf870ad5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false when provided with an even number",
+              "fullTitle": "isNumberEven positive tests should return false when provided with an even number",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const validationResults = validator.isNumberEven(3);\nexpect(validationResults).to.be.equal(false);",
+              "err": {},
+              "uuid": "f1af503b-70ec-48a2-8b0e-5275b9a91443",
+              "parentUUID": "ab41cda3-85fa-4020-922b-ae7cbf870ad5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "02d00a48-e786-4182-a9aa-873b5116dc6e",
+            "f1af503b-70ec-48a2-8b0e-5275b9a91443"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "775af9df-225f-4bee-94f7-50a7e75537d3",
+          "title": "getEvenNumbersFromArray",
+          "fullFile": "/Users/anastasiaparkhomchuk/Desktop/project/test/numbers-validator/isNumberEven.spec.mjs",
+          "file": "/test/numbers-validator/isNumberEven.spec.mjs",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"getEvenNumbersFromArray\"",
+              "fullTitle": "getEvenNumbersFromArray \"before each\" hook in \"getEvenNumbersFromArray\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new NumbersValidator();",
+              "err": {},
+              "uuid": "d4a30934-75d3-4847-a5d4-8e3ed3590525",
+              "parentUUID": "775af9df-225f-4bee-94f7-50a7e75537d3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"getEvenNumbersFromArray\"",
+              "fullTitle": "getEvenNumbersFromArray \"after each\" hook in \"getEvenNumbersFromArray\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "92804e17-673d-4117-8cb5-f25202a757e1",
+              "parentUUID": "775af9df-225f-4bee-94f7-50a7e75537d3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return an array containing even numbers when input is a valid array of even numbers",
+              "fullTitle": "getEvenNumbersFromArray should return an array containing even numbers when input is a valid array of even numbers",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const inputArray = [2, 4, 6, 8, 10];\nconst expectedOutput = [2, 4, 6, 8, 10];\nexpect(validator.getEvenNumbersFromArray(inputArray)).to.deep.equal(expectedOutput);",
+              "err": {},
+              "uuid": "481e6aeb-4f53-4de4-b196-bc8f318b9c0b",
+              "parentUUID": "775af9df-225f-4bee-94f7-50a7e75537d3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return an array containing only even numbers when input is a valid array of mixed numbers",
+              "fullTitle": "getEvenNumbersFromArray should return an array containing only even numbers when input is a valid array of mixed numbers",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const inputArray = [1, 2, 3, 4, 5, 6];\nconst expectedOutput = [2, 4, 6];\nexpect(validator.getEvenNumbersFromArray(inputArray)).to.deep.equal(expectedOutput);",
+              "err": {},
+              "uuid": "4c4bfc6e-326e-4c42-bc80-c066d23ea537",
+              "parentUUID": "775af9df-225f-4bee-94f7-50a7e75537d3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return an empty array when input is an empty array",
+              "fullTitle": "getEvenNumbersFromArray should return an empty array when input is an empty array",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const inputArray = [];\nconst expectedOutput = [];\nexpect(validator.getEvenNumbersFromArray(inputArray)).to.deep.equal(expectedOutput);",
+              "err": {},
+              "uuid": "553a7ae8-3e8a-4b95-a84e-49834911fa93",
+              "parentUUID": "775af9df-225f-4bee-94f7-50a7e75537d3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "481e6aeb-4f53-4de4-b196-bc8f318b9c0b",
+            "4c4bfc6e-326e-4c42-bc80-c066d23ea537",
+            "553a7ae8-3e8a-4b95-a84e-49834911fa93"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "1a717951-7d5f-4e94-bb64-962031a5600f",
+          "title": "isAllNumbers",
+          "fullFile": "/Users/anastasiaparkhomchuk/Desktop/project/test/numbers-validator/isNumberEven.spec.mjs",
+          "file": "/test/numbers-validator/isNumberEven.spec.mjs",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"isAllNumbers\"",
+              "fullTitle": "isAllNumbers \"before each\" hook in \"isAllNumbers\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new NumbersValidator();",
+              "err": {},
+              "uuid": "1a787e03-ba1e-4407-8ba2-ea5acf3c349d",
+              "parentUUID": "1a717951-7d5f-4e94-bb64-962031a5600f",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"isAllNumbers\"",
+              "fullTitle": "isAllNumbers \"after each\" hook in \"isAllNumbers\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "18c87075-d436-447c-bb38-a23558108ee4",
+              "parentUUID": "1a717951-7d5f-4e94-bb64-962031a5600f",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return true when input is an array containing only numbers",
+              "fullTitle": "isAllNumbers should return true when input is an array containing only numbers",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const inputArray = [1, 2, 3, 4, 5];\nexpect(validator.isAllNumbers(inputArray)).to.be.equal(true);",
+              "err": {},
+              "uuid": "83818f4c-eae5-4cb8-867f-8ecb0f9fa86f",
+              "parentUUID": "1a717951-7d5f-4e94-bb64-962031a5600f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return true when input is an empty array",
+              "fullTitle": "isAllNumbers should return true when input is an empty array",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const inputArray = [];\n// expect(validator.isAllNumbers(inputArray)).to.be.equal(true);",
+              "err": {},
+              "uuid": "8e2108a1-b75d-411d-b551-4a274384d679",
+              "parentUUID": "1a717951-7d5f-4e94-bb64-962031a5600f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false when input is an array containing non-number values",
+              "fullTitle": "isAllNumbers should return false when input is an array containing non-number values",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const inputArray = [1, '2', 3, 'four', 5];\nexpect(validator.isAllNumbers(inputArray)).to.be.equal(false);",
+              "err": {},
+              "uuid": "4fb81dac-66b7-4a3a-8962-787284195a74",
+              "parentUUID": "1a717951-7d5f-4e94-bb64-962031a5600f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "83818f4c-eae5-4cb8-867f-8ecb0f9fa86f",
+            "8e2108a1-b75d-411d-b551-4a274384d679",
+            "4fb81dac-66b7-4a3a-8962-787284195a74"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3feb58bd-4dcd-41cc-b662-a872bc781f75",
+          "title": "isInteger",
+          "fullFile": "/Users/anastasiaparkhomchuk/Desktop/project/test/numbers-validator/isNumberEven.spec.mjs",
+          "file": "/test/numbers-validator/isNumberEven.spec.mjs",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"isInteger\"",
+              "fullTitle": "isInteger \"before each\" hook in \"isInteger\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new NumbersValidator();",
+              "err": {},
+              "uuid": "97601036-ff45-4959-ba65-beef88f4a79b",
+              "parentUUID": "3feb58bd-4dcd-41cc-b662-a872bc781f75",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"isInteger\"",
+              "fullTitle": "isInteger \"after each\" hook in \"isInteger\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "90660254-955c-422b-aaed-397dafb83e6c",
+              "parentUUID": "3feb58bd-4dcd-41cc-b662-a872bc781f75",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return true when input is an integer",
+              "fullTitle": "isInteger should return true when input is an integer",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const number = 42;\nexpect(validator.isInteger(number)).to.be.equal(true);",
+              "err": {},
+              "uuid": "ebf5aae9-e753-42ff-bf2e-ff9f6e06faab",
+              "parentUUID": "3feb58bd-4dcd-41cc-b662-a872bc781f75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false when input is not an integer",
+              "fullTitle": "isInteger should return false when input is not an integer",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const number = 3.14;\nexpect(validator.isInteger(number)).to.be.equal(false);",
+              "err": {},
+              "uuid": "fb937b03-feab-4759-89f7-005b5fde219b",
+              "parentUUID": "3feb58bd-4dcd-41cc-b662-a872bc781f75",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ebf5aae9-e753-42ff-bf2e-ff9f6e06faab",
+            "fb937b03-feab-4759-89f7-005b5fde219b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
